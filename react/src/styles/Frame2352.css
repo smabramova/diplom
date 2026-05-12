@@ -1,0 +1,237 @@
+
+.scroll-container {
+        height: 100%;
+width: 100%;
+overflow: auto;
+      }
+.Pixso-frame-2_352 {
+        width: 100%;
+height: 333px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+gap: 32px;
+align-items: flex-start;
+padding: 48px 80px 48px 80px;
+background-color: rgba(26, 25, 24, 1);
+      }
+.Pixso-frame-2_353 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+      }
+.frame-content-2_353 {
+        display: flex;
+flex-direction: row;
+gap: 64px;
+align-items: flex-start;
+width: 100%;
+position: relative;
+      }
+.Pixso-frame-2_354 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+gap: 16px;
+align-items: flex-start;
+      }
+.Pixso-frame-2_355 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: center;
+      }
+.Pixso-vector-2_356 {
+        width: 24px;
+height: 24px;
+background-image: url(@/assets/images/pencilruler.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.Pixso-paragraph-2_363 {
+        font-size: 20px;
+font-family: "Outfit-Bold";
+font-weight: Bold;
+color: rgba(255, 255, 255, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_364 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+line-height: 159.99999046325684%;
+color: rgba(156, 155, 153, 1);
+white-space: pre-line;
+width: 220px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+      }
+.Pixso-frame-2_365 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+gap: 16px;
+align-items: flex-start;
+      }
+.Pixso-paragraph-2_366 {
+        font-size: 16px;
+font-family: "Outfit-SemiBold";
+font-weight: SemiBold;
+color: rgba(255, 255, 255, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_367 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(156, 155, 153, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_368 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(156, 155, 153, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_369 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(156, 155, 153, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_370 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(156, 155, 153, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-frame-2_371 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+gap: 16px;
+align-items: flex-start;
+      }
+.Pixso-paragraph-2_372 {
+        font-size: 16px;
+font-family: "Outfit-SemiBold";
+font-weight: SemiBold;
+color: rgba(255, 255, 255, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_373 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(156, 155, 153, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_374 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(156, 155, 153, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_375 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(156, 155, 153, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-rectangle-2_376 {
+        width: 100%;
+height: 1px;
+position: relative;
+flex-shrink: 0;
+background-color: rgba(255, 255, 255, 0.08235294371843338);
+      }
+.Pixso-paragraph-2_377 {
+        font-size: 13px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: rgba(109, 108, 106, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+

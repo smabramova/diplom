@@ -1,0 +1,17 @@
+:root, 
+[data-collection-2-147-mode=""] {
+  /* Параметр */
+  --accent-green: rgba(61, 138, 90, 1);
+  --text-primary: rgba(26, 25, 24, 1);
+  --accent-light-green: rgba(200, 240, 216, 1);
+  --accent-coral: rgba(216, 149, 117, 1);
+  --accent-purple: rgba(139, 107, 190, 1);
+  --bg-white: rgba(255, 255, 255, 1);
+  --bg-muted: rgba(237, 236, 234, 1);
+  --bg-cream: rgba(245, 244, 241, 1);
+  --accent-blue: rgba(74, 127, 181, 1);
+  --accent-yellow: rgba(244, 200, 66, 1);
+  --text-secondary: rgba(109, 108, 106, 1);
+  --text-tertiary: rgba(156, 155, 153, 1);
+}
+

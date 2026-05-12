@@ -1,0 +1,216 @@
+
+.scroll-container {
+        height: 100%;
+width: 100%;
+overflow: auto;
+      }
+.Pixso-frame-2_162 {
+        width: 100%;
+height: 72px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+background-color: var(--bg-cream);
+      }
+.Pixso-frame-2_163 {
+        width: 100%;
+height: 72px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0px 2px 12px 0px rgba(26, 25, 24, 0.06274509803921569) ;
+background-color: var(--bg-white);
+      }
+.frame-content-2_163 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0px 48px 0px 48px;
+width: 100%;
+height: 100%;
+position: relative;
+      }
+.Pixso-frame-2_164 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: center;
+      }
+.Pixso-vector-2_165 {
+        width: 28px;
+height: 28px;
+background-image: url(@/assets/images/pencilruler1.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.Pixso-paragraph-2_172 {
+        font-size: 22px;
+font-family: "Outfit-Bold";
+font-weight: Bold;
+letter-spacing: -0.5px;
+color: var(--text-primary);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-frame-2_173 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 36px;
+align-items: center;
+      }
+.Pixso-paragraph-2_174 {
+        font-size: 15px;
+font-family: "Outfit-SemiBold";
+font-weight: SemiBold;
+color: var(--text-primary);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_175 {
+        font-size: 15px;
+font-family: "Outfit-Medium";
+font-weight: Medium;
+color: var(--text-secondary);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_176 {
+        font-size: 15px;
+font-family: "Outfit-Medium";
+font-weight: Medium;
+color: var(--text-secondary);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-paragraph-2_177 {
+        font-size: 15px;
+font-family: "Outfit-Medium";
+font-weight: Medium;
+color: var(--text-secondary);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-frame-2_178 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 16px;
+align-items: center;
+      }
+.Pixso-frame-2_179 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 8px;
+align-items: center;
+padding: 10px 16px 10px 16px;
+border-radius: 100px 100px 100px 100px;
+background-color: var(--bg-muted);
+      }
+.Pixso-vector-2_180 {
+        width: 16px;
+height: 16px;
+background-image: url(@/assets/images/search.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.Pixso-paragraph-2_183 {
+        font-size: 14px;
+font-family: "Outfit-Regular";
+font-weight: Regular;
+color: var(--text-tertiary);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.Pixso-vector-2_184 {
+        width: 22px;
+height: 22px;
+background-image: url(@/assets/images/heart0.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.Pixso-vector-2_186 {
+        width: 22px;
+height: 22px;
+background-image: url(@/assets/images/shoppingcart0.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.Pixso-frame-2_190 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 8px;
+align-items: center;
+padding: 10px 20px 10px 20px;
+border-radius: 100px 100px 100px 100px;
+background-color: var(--accent-blue);
+      }
+.Pixso-paragraph-2_191 {
+        font-size: 14px;
+font-family: "Outfit-SemiBold";
+font-weight: SemiBold;
+color: rgba(255, 255, 255, 1);
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+

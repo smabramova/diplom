@@ -1,0 +1,12 @@
+@font-face {
+                font-family: "Outfit-Medium"; font-style: normal; src: url('@/assets/fonts/Outfit-Medium_1.ttf'); font-weight: 500
+            }
+@font-face {
+                font-family: "Outfit-Bold"; font-style: normal; src: url('@/assets/fonts/Outfit-Bold_1.ttf'); font-weight: 700
+            }
+@font-face {
+                font-family: "Outfit-Regular"; font-style: normal; src: url('@/assets/fonts/Outfit-Regular_1.ttf'); font-weight: 400
+            }
+@font-face {
+                font-family: "Outfit-SemiBold"; font-style: normal; src: url('@/assets/fonts/Outfit-SemiBold_1.ttf'); font-weight: 600
+            }
