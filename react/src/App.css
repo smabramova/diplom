@@ -675,3 +675,31 @@ a, a:link, a:visited, a:hover, a:active {
 .more-link {
   text-decoration: none !important;
 }
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 0 15px;
+  margin-bottom: 30px;
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.2s;
+}
+.search-box:focus-within {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  border-color: var(--primary);
+}
+.search-icon {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #888;
+}
+.search-input-modern {
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
