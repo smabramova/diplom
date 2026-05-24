@@ -16,6 +16,8 @@ body {
   font-family: 'Nunito', 'Segoe UI', sans-serif;
   background: #fdfbf7;  /* чуть теплее */
   scroll-behavior: smooth;
+ overflow-x: hidden; /* предотвращаем горизонтальный скролл */
+  min-height: 100vh;
 }
 
 .section {
@@ -100,7 +102,7 @@ body {
   padding: 150px 0 100px;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 0 0 50px 50px; /* мягкие уголки снизу */
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
@@ -276,39 +278,6 @@ body {
   color: var(--secondary);
 }
 
-/* --------- МОДАЛЬНОЕ ОКНО КОРЗИНЫ ---------- */
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 200;
-}
-.modal.active { display: flex; }
-.modal-content {
-  background: white;
-  padding: 30px;
-  border-radius: var(--radius);
-  max-width: 500px;
-  width: 90%;
-  max-height: 80vh;
-  overflow-y: auto;
-  position: relative;
-}
-.modal-close {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 1.8rem;
-  cursor: pointer;
-  border: none;
-  background: none;
-}
 .cart-items { list-style: none; margin: 20px 0; }
 .cart-items li {
   display: flex;
@@ -422,6 +391,7 @@ body {
 /* ---------- ПРОМО-БАННЕР НА ГЛАВНОЙ ---------- */
 .promo-banner {
   background: linear-gradient(105deg, #fff5f0, #ffe4d6, #fddbc7);
+  backdrop-filter: blur(2px); /* должно быть backdrop-filter */
   border-radius: 28px;
   padding: 30px 35px;
   margin: 50px 0 30px;
@@ -449,14 +419,33 @@ body {
 }
 /* ---------- АДАПТИВ ---------- */
 @media (max-width: 768px) {
-  .nav-links { display: none; }
-  .catalog-layout { flex-direction: column; }
-  .filters-sidebar { width: 100%; }
+  .nav-links {
+    display: none;
+  }
+  .catalog-layout {
+    flex-direction: column;
+  }
+  .filters-sidebar {
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 1.8rem; /* уменьшаем заголовок на мобильных */
+  }
+  .section {
+    padding: 40px 0; /* уменьшаем отступы */
+  }
 }
-@media (max-width: 600px) {
-  .hero h1 { font-size: 2rem; }
-  .hero-buttons { flex-direction: column; }
-} 
+
+@media (max-width: 480px) {
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn {
+    padding: 12px 25px; /* уменьшаем кнопки */
+  }
+}
+
 /* ---------- МОДАЛЬНОЕ ОКНО КОРЗИНЫ ---------- */
 .modal {
   position: fixed;

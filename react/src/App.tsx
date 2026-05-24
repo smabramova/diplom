@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Header from './components/Header';
 import CartModal from './components/CartModal';
@@ -16,7 +16,7 @@ export default function App() {
   return (
     <AuthProvider>
       <CartProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Header onCartClick={() => setCartOpen(true)} />
           <CartModal isOpen={isCartOpen} onClose={() => setCartOpen(false)} />
           <LoginModal />
@@ -25,7 +25,7 @@ export default function App() {
             <Route path="/catalog" element={<CatalogPage />} />
             <Route path="/product/:id" element={<ProductPage />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </CartProvider>
     </AuthProvider>
   );

@@ -12,6 +12,25 @@ body {
 #root {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 25%; /* Для больших экранов */
+}
+
+@media (max-width: 768px) {
+  .product {
+    width: 100%; /* Для мобильных экранов */
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
