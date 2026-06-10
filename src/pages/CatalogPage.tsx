@@ -97,7 +97,7 @@ export default function CatalogPage() {
           </div>
         </aside>
 
-        <div className="catalog-products">
+       <div className="catalog-products" style={{ width: '100%', maxWidth: '100%' }}>
           {/* Поле поиска с иконкой */}
           <div className="search-box">
             <span className="search-icon">🔍</span>
@@ -109,7 +109,7 @@ export default function CatalogPage() {
               className="search-input-modern"
             />
             </div>
-          <div className="products-grid">
+        <div className="products-grid-force">
             {filtered.length > 0 ? (
               filtered.map(product => <ProductCard key={product.id} product={product} />)
             ) : (

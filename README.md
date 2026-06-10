@@ -37,3 +37,7 @@ npm run build
 
 # Предпросмотр собранного проекта
 npm run preview
+
+# Тестовый доступ
+**Email:** test@example.com
+**Пароль** test123

@@ -40,7 +40,7 @@ export default function HomePage() {
       {/* Популярные товары */}
       <div className="container section">
         <h2 className="section-title">Популярные товары</h2>
-        <div className="products-grid">
+       <div className="products-grid-force">
           {popular.map(product => <ProductCard key={product.id} product={product} />)}
         </div>
       </div>
